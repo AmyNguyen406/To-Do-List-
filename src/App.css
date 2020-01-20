@@ -1,0 +1,58 @@
+/*goal: make mobile friendly*/
+
+
+body{
+    background-color:white;
+  }
+
+h1{
+  color: #44bac9;
+  text-align: center;
+  font-family: 'Verdana', sans-serif;
+  text-shadow: 1px 1px 2px #47a9b5;
+  font-size: 24px;
+  margin-bottom: 2px;
+  }
+
+.App{
+  background-color: #bdf7ff;
+  border: 10px solid #93e3ed;
+  border-radius: 25px;
+  box-shadow: 5px 8px #47a9b5;
+  min-height: 600px;
+  width: 400px;
+  margin: 50px auto;
+}
+
+#to-do-form input{
+  background-color: #f0fdff;
+  border: 2px solid #aeedf5;
+  border-radius: 10px;
+  height: 50px;
+  width: 235px;
+  margin: 10px 10px 10px 25px;
+  padding: 5px 10px;
+  font-size: 18px;
+  color: #6de3f2;
+}
+
+#to-do-form input::placeholder{
+  color: #b1d9e6;
+}
+
+/* When you click there is no longer a square focus box on the element you are clicking on. */
+#to-do-form input:focus, #to-do-form button:focus{
+  outline: none;
+}
+
+#to-do-form button{
+  background-color: #f0fdff;
+  border: 2px solid #aeedf5;
+  border-radius: 10px;
+  height: 50px;
+  width: 80px;
+  cursor: pointer;
+  font-weight: bolder;
+  color: #6de3f2;
+}
+
